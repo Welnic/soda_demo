@@ -1,0 +1,21 @@
+# Check that a dataset contains rows
+checks for spotify_2023:
+  - row_count > 0
+  - duplicate_count(track_name, artist_name) = 0
+  - missing_count(track_name) = 0:
+      missing values: [n/a, NA, none]
+  - missing_count(artist_name) = 0:
+      missing values: [n/a, NA, none]
+  - invalid_count(artist_count) = 0:
+      valid min: 1
+  - invalid_count(released_year) = 0:
+      valid min: 1900
+      valid max: 2023
+  - invalid_count(released_month) = 0:
+      valid min: 1
+      valid max: 12
+  - invalid_count(released_day) = 0:
+      valid min: 1
+      valid max: 31
+  - invalid_count(streams) = 0:
+      valid format: integer

@@ -1,0 +1,27 @@
+create table 
+  spotify_2023 (
+    track_name text,
+    artist_name text,
+    artist_count int2,
+    released_year int4,
+    released_month int2,
+    released_day int2,
+    in_spotify_playlists int4,
+    in_spotify_charts int4,
+    streams text,
+    in_apple_playlists int8,
+    in_apple_charts int8,
+    in_deezer_playlists int8,
+    in_deezer_charts int8,
+    in_shazam_charts int8,
+    bpm int8,
+    key text,
+    mode text,
+    danceability int4,
+    valence int4,
+    energy int4,
+    acousticness int4,
+    instrumentalness int4,
+    liveness int4,
+    speechiness int4
+    );

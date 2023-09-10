@@ -1,0 +1,17 @@
+# Example data source connection
+data_source adventureworks:
+  type: postgres
+  host: db.***********.supabase.co
+  username: *********
+  password: *********
+  database: postgres
+  # # Optional configuration to exclude columns from Soda scans
+  # sampler:
+  #   exclude_columns:
+  #     dim_product: ["large_photo", "*_description"]
+
+# Example Soda platform connection
+soda_cloud:
+  host: cloud.us.soda.io
+  api_key_id: 35****************
+  api_key_secret: SL***********************
