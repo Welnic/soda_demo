@@ -16,11 +16,7 @@ Special thanks to Nidula Elgiriyewithana for the dataset!
 - [Full Tutorial] (https://medium.com/@catalinamelnic/a-new-way-of-finding-data-anomalies-59d5b3eeab4a)
 - [Supabase with Python](https://supabase.com/blog/loading-data-supabase-python)
 
-## Development guide
-
-_This app is built with [Soda Core](https://docs.soda.io/soda/quick-start-sip.html)._
-
-### Pre-requisites
+## Pre-requisites
 
 - [Python](https://www.python.org/)
 - [Soda Core](https://docs.soda.io/)
